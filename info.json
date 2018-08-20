@@ -1,7 +1,7 @@
 {
   "version": "3.2.1",
   "changelog": "Some tweaks",
-  "source": "https://cdn.rawgit.com/AJS-development/BlobleNoobScriptV3/6d6508d5/src/3.2.1c.js",
+  "source": "https://cdn.rawgit.com/AJS-development/BlobleNoobScriptV3/e8241947/src/3.2.1d.js",
   "loader": "1.0.0",
-  "msg": "The moderation experiment has failed. Moderation has been removed. Please do not cause lag. If this becomes a problem, bots will be reduced."
+  "msg": ""
 }
