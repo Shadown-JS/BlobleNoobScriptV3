@@ -11,3 +11,4 @@ This change happened around 3.1.7
  - June 29 - 3.1.9c - Interrupt remove is fixed. Also added chat spam grouping
  - July 10 - 3.2.0 - Small bugs fixed. Filter/ping fixed. Anti Multi-tab system added
  - July 16 - 3.2.0b - 3.2.0c - Added an account restore button to mitigate people losing their accounts
+ - August 21 - 3.2.2 - SmartDefend update
