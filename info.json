@@ -1,7 +1,7 @@
 {
   "version": "3.2.2",
   "changelog": "Defend mode",
-  "source": "https://cdn.rawgit.com/AJS-development/BlobleNoobScriptV3/2831d8ba/src/3.2.2.js",
+  "source": "https://cdn.rawgit.com/AJS-development/BlobleNoobScriptV3/f17edaa3/src/3.2.2b.js",
   "loader": "1.0.0",
-  "msg": "Defend mode has been updated!"
+  "msg": "Updated interface, and better defend mode/"
 }
