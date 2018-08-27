@@ -1,7 +1,7 @@
 {
   "version": "3.2.2",
   "changelog": "Defend mode",
-  "source": "https://cdn.rawgit.com/AJS-development/BlobleNoobScriptV3/e3a62c38/src/3.2.2b.js",
+  "source": "https://cdn.rawgit.com/AJS-development/BlobleNoobScriptV3/d66f55fe/src/3.2.2b.js",
   "loader": "1.0.0",
   "msg": "Since lots of people are playing simultaneously because of the competition, bots have been temporarily reduced to 6."
 }
