@@ -1,7 +1,7 @@
 {
   "version": "3.2.2",
   "changelog": "Defend mode",
-  "source": "https://cdn.rawgit.com/AJS-development/BlobleNoobScriptV3/8d27c536/src/3.2.2b.js",
+  "source": "https://cdn.rawgit.com/AJS-development/BlobleNoobScriptV3/d3905ddf/src/3.2.2b.js",
   "loader": "1.0.0",
   "msg": "The contest has ENDED! The winners have their prizes. (/spam, /silence, /freeze, /protect, /unprotect)"
 }
