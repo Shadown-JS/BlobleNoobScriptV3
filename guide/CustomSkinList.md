@@ -216,4 +216,5 @@ black - :210
 mangawarrior - :211
 mangagirls - :212
 mangaghoul - :213
+mangademon - :214
 ```
