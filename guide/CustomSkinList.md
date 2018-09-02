@@ -213,4 +213,6 @@ zombie - :207
 relampago - :208
 gabiscript - :209
 black - :210
+mangawarrior - :211
+mangagirls - :212
 ```
