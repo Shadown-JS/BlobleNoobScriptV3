@@ -218,4 +218,5 @@ mangagirls - :212
 mangaghoul - :213
 mangademon - :214
 pinkmangagirl - :215
+mangademon2 - :216
 ```
