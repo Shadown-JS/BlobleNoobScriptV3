@@ -1,7 +1,7 @@
 {
   "version": "3.2.2",
   "changelog": "Defend mode",
-  "source": "https://cdn.rawgit.com/AJS-development/BlobleNoobScriptV3/66730d4c/src/3.2.2b.js",
+  "source": "https://cdn.rawgit.com/AJS-development/BlobleNoobScriptV3/c5312682/src/3.2.3.js",
   "loader": "1.0.0",
-  "msg": "On September 8th, a 1v1 contest will begin. Whoever who is top 1 will get a prize, and will be proclaimed as the best player in existence"
+  "msg": "The 1V1 contest has started! Bots have been disabled."
 }
