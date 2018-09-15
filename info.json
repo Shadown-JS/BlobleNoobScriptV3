@@ -1,7 +1,7 @@
 {
   "version": "3.2.3",
   "changelog": "Contest has started!",
-  "source": "https://cdn.rawgit.com/AJS-development/BlobleNoobScriptV3/ab6e32e9/src/3.2.3.js",
+  "source": "https://cdn.rawgit.com/AJS-development/BlobleNoobScriptV3/ae8c4b51/src/3.2.3.js",
   "loader": "1.0.0",
-  "msg": "Contest has ended! Bots have been returned. Winner has /hide command."
+  "msg": "Bots have been reduced by 4 because of overuse."
 }
