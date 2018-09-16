@@ -1,7 +1,7 @@
 {
-  "version": "3.2.3",
-  "changelog": "Contest has started!",
-  "source": "https://cdn.rawgit.com/AJS-development/BlobleNoobScriptV3/ae8c4b51/src/3.2.3.js",
+  "version": "3.2.4",
+  "changelog": "New defend mode",
+  "source": "https://cdn.rawgit.com/AJS-development/BlobleNoobScriptV3/fc1a32b1/src/3.2.4.js",
   "loader": "1.0.0",
-  "msg": "Bots have been reduced by 4 because of overuse."
+  "msg": "The new defend mode is out!"
 }
