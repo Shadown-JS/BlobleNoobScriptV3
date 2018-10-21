@@ -1,7 +1,7 @@
 {
   "version": "3.2.4",
   "changelog": "",
-  "source": "https://cdn.rawgit.com/AJS-development/BlobleNoobScriptV3/d5e9137b/src/3.2.4.js",
+  "source": "https://cdn.jsdelivr.net/gh/AJS-development/BlobleNoobScriptV3@e382d66350bd052d512fdedbdbc80b460fbabc31/src/3.2.4.js",
   "loader": "1.0.0",
   "msg": "When the season ends, everyone EXCEPT ITALY will have unlimited bots"
 }
