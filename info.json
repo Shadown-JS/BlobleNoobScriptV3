@@ -1,6 +1,6 @@
 {
   "version": "3.2.5",
-  "changelog": "",
+  "changelog": "Bug fixes",
   "source": "https://cdn.jsdelivr.net/gh/AJS-development/BlobleNoobScriptV3@2c55af29b98aad9d9ff80e86e17bc27d0acdd83f/src/3.2.5.js",
   "loader": "1.0.0",
   "msg": ""
