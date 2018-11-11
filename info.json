@@ -1,7 +1,7 @@
 {
-  "version": "3.2.4",
+  "version": "3.2.5",
   "changelog": "",
-  "source": "https://cdn.jsdelivr.net/gh/AJS-development/BlobleNoobScriptV3@c422a49a1e0d85eb66027aec19c3ca5735e38797/src/3.2.4.js",
+  "source": "https://cdn.jsdelivr.net/gh/AJS-development/BlobleNoobScriptV3@2c55af29b98aad9d9ff80e86e17bc27d0acdd83f/src/3.2.5.js",
   "loader": "1.0.0",
   "msg": ""
 }
