@@ -1,7 +1,7 @@
 {
-  "version": "3.2.5",
-  "changelog": "Bug fixes",
-  "source": "https://cdn.jsdelivr.net/gh/AJS-development/BlobleNoobScriptV3@2c55af29b98aad9d9ff80e86e17bc27d0acdd83f/src/3.2.5.js",
+  "version": "3.2.6",
+  "changelog": "NEW multi-base tower placement",
+  "source": "https://cdn.jsdelivr.net/gh/AJS-development/BlobleNoobScriptV3@1b8f8a6526466b93778d130ee26fcc7ce20b5dd4/src/3.2.6.js",
   "loader": "1.0.0",
   "msg": ""
 }
