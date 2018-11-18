@@ -66,9 +66,10 @@ app.listen(port)
 console.log("Listening on port " + port);
 var sockets = [];
 io.on('connection', function(socket) {
-  console.log("User connected! " + sockets.length);
+  
     socket.admin = false;
     sockets.push(socket);
+    console.log("User connected! " + sockets.length);
     socket.on("elevate", (id, security) => {
       console.log(id + " requests elevation");
         request("https://bloble.000webhostapp.com/verify.php", {
@@ -85,6 +86,12 @@ io.on('connection', function(socket) {
                         s.emit("msg", msg,target,sender);
                     });
                 })
+                socket.on("reset",()=>{
+                   sockets.slice(0).forEach((s)=>{
+                     s.close();  
+                   })
+                   sockets.length = 0;
+                });
             } else {
                 console.log("elevation failed")
                  socket.emit("elevate",false);
