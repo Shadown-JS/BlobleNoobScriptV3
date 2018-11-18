@@ -1,7 +1,7 @@
 {
   "version": "3.2.6",
   "changelog": "NEW multi-base tower placement",
-  "source": "https://cdn.jsdelivr.net/gh/AJS-development/BlobleNoobScriptV3@b4082c693598e1a9bf44a794345da89570695215/src/3.2.6.js",
+  "source": "https://cdn.jsdelivr.net/gh/AJS-development/BlobleNoobScriptV3@6eee2d07239abd2d9e92cbf24e331140ef710464/src/3.2.6.js",
   "loader": "1.0.0",
-  "msg": ""
+  "msg": "An Anti-Lag experiment has begun!"
 }
