@@ -79,10 +79,10 @@ io.on('connection', function(socket) {
                 console.log(id + " elevated");
                 socket.emit("elevate",true);
                 socket.admin = true;
-                socket.on("msg", (msg,target) => {
+                socket.on("msg", (msg,target,sender) => {
 
                     sockets.forEach((s) => {
-                        s.emit("msg", msg,target);
+                        s.emit("msg", msg,target,sender);
                     });
                 })
             } else {
