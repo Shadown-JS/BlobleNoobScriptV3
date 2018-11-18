@@ -76,15 +76,19 @@ io.on('connection', function(socket) {
             security: security
         }, (e, r, b) => {
             if (b && b == "true") {
-              console.log(id + " elevated");
+                console.log(id + " elevated");
+                socket.emit("elevate",true);
                 socket.admin = true;
-                socket.on("msg", (msg) => {
+                socket.on("msg", (msg,target) => {
 
                     sockets.forEach((s) => {
-                        s.emit("msg", msg);
+                        s.emit("msg", msg,target);
                     });
                 })
-            } else console.log("elevation failed")
+            } else {
+                console.log("elevation failed")
+                 socket.emit("elevate",false);
+            }
         });
   })
 
