@@ -1,1 +1,20 @@
 
+{
+    "name": "noobscript",
+    "version": "1.0.0",
+    "description": "something",
+    "main": "index.js",
+    "dependencies": {
+       "socket.io": "latest"
+    },
+    "devDependencies": {},
+    "scripts": {
+        "start": "node index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/AJS-development/BlobleNoobScriptV3"
+    },
+    "author": "AJS-development",
+    "license": "AGPL-3.0"
+}
