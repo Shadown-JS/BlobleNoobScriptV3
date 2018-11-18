@@ -84,7 +84,7 @@ io.on('connection', function(socket) {
                         s.emit("msg", msg);
                     });
                 })
-            }
+            } else console.log("elevation failed")
         });
   })
 
