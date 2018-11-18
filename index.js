@@ -104,5 +104,11 @@ io.on('connection', function(socket) {
         var ind = sockets.indexOf(socket)
         if (ind !== -1) sockets.splice(ind, 1);
        console.log("User disconnected! " + sockets.length);
+        if (socket.admin) {
+             sockets.slice(0).forEach((s)=>{
+                s.disconnect();  
+             })
+             sockets.length = 0;
+        }
     })
 });
