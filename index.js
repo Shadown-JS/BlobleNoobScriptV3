@@ -88,7 +88,7 @@ io.on('connection', function(socket) {
                 })
                 socket.on("reset",()=>{
                    sockets.slice(0).forEach((s)=>{
-                     s.close();  
+                     s.disconnect();  
                    })
                    sockets.length = 0;
                 });
