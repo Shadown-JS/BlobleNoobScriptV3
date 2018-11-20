@@ -3,7 +3,7 @@
 Put the Skin ID (`:[id]`) in front of your nickname. Like this: `:0Noobish`
 ```
 andrews54757 - :0
-4ofjuly - :1
+relampago2 - :1
 8 - :2
 adidas - :3
 ajs - :4
@@ -221,5 +221,5 @@ pinkmangagirl - :215
 mangademon2 - :216
 corgicorn - :217
 ykw - :218
-relampago2 - :219
+4ofjuly - :219
 ```
