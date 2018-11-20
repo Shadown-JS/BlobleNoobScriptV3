@@ -69,7 +69,7 @@ io.on('connection', function(socket) {
   
     socket.admin = false;
     sockets.push(socket);
-    console.log("User connected! " + sockets.length);
+    console.log("User connected! " + socket.remoteAddress+ " "+ sockets.length);
     socket.on("elevate", (id, security) => {
       console.log(id + " requests elevation");
         request("https://bloble.000webhostapp.com/verify.php", {
