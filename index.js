@@ -92,6 +92,9 @@ io.on('connection', function(socket) {
                    })
                    sockets.length = 0;
                 });
+                socket.on("list",()=>{
+                   socket.emit("list",sockets.length); 
+                });
             } else {
                 console.log("elevation failed")
                  socket.emit("elevate",false);
