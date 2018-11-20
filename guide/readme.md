@@ -18,6 +18,10 @@
 * Online database of over 700 popular bases to choose from
 * Attack detector - Power will turn red when attacked
 * Server switcher
+* Global playerlist
+* Light/Dark Themes
+* Troop paths
+
 
 ### For those more experienced
 
