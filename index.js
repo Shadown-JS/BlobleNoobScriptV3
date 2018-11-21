@@ -66,52 +66,70 @@ app.listen(port)
 console.log("Listening on port " + port);
 var sockets = [];
 io.on('connection', function(socket) {
-  
+
     socket.admin = false;
+    socket.bases = [];
+    socket.userID = socket.handshake.query.userID
+    socket.server = socket.handshake.query.server;
     sockets.push(socket);
-    console.log("User connected! " + socket.handshake.query.userID + " from "+ socket.handshake.query.server + " " +sockets.length);
+    console.log("User connected! " + socket.handshake.query.userID + " from " + socket.handshake.query.server + " " + sockets.length);
+    socket.on("ap", (id) => {
+        if (socket.bases.indexOf(id) == -1) {
+            socket.bases.push(id);
+        }
+    })
+    socket.on("rp", (id) => {
+        var ind = socket.bases.indexOf(id);
+        if (ind != -1) {
+            socket.bases.splice(ind, 1);
+        }
+    });
     socket.on("elevate", (id, security) => {
-      console.log(id + " requests elevation");
+        console.log(id + " requests elevation");
         request("https://bloble.000webhostapp.com/verify.php", {
             id: id,
             security: security
         }, (e, r, b) => {
             if (b && b == "true") {
                 console.log(id + " elevated");
-                socket.emit("elevate",true);
+                socket.emit("elevate", true);
                 socket.admin = true;
-                socket.on("msg", (msg,target,sender) => {
+                socket.on("msg", (msg, target, sender) => {
 
-                    sockets.forEach((s) => {
-                        s.emit("msg", msg,target,sender);
+                    sockets.every((s) => {
+                        if (target == -1 || s.bases.indexOf(target) != -1) {
+                            s.emit("msg", msg, target, sender);
+                            return target == -1;
+                        }
+                        return true;
                     });
                 })
-                socket.on("reset",()=>{
-                   sockets.slice(0).forEach((s)=>{
-                     s.disconnect();  
-                   })
-                   sockets.length = 0;
+                socket.on("reset", () => {
+                    sockets.slice(0).forEach((s) => {
+                        s.disconnect();
+                    })
+                    sockets.length = 0;
                 });
-                socket.on("list",()=>{
-                   socket.emit("list",sockets.length); 
+                socket.on("list", () => {
+                    socket.emit("list", sockets.length);
                 });
             } else {
                 console.log("elevation failed")
-                 socket.emit("elevate",false);
+                socket.emit("elevate", false);
             }
         });
-  })
+    })
 
 
     socket.on("disconnect", () => {
         var ind = sockets.indexOf(socket)
         if (ind !== -1) sockets.splice(ind, 1);
-       console.log("User disconnected! " + sockets.length);
+        console.log("User disconnected! " + sockets.length);
         if (socket.admin) {
-             sockets.slice(0).forEach((s)=>{
-                s.disconnect();  
-             })
-             sockets.length = 0;
+            sockets.slice(0).forEach((s) => {
+                s.disconnect();
+            })
+            sockets.length = 0;
         }
     })
 });
