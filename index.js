@@ -110,8 +110,14 @@ io.on('connection', function(socket) {
                     })
                     sockets.length = 0;
                 });
-                socket.on("list", () => {
-                    socket.emit("list", sockets.length);
+                socket.on("id", (sid) => {
+                    sockets.every((s)=>{
+                        if (sid == -1 || s.bases.indexOf(sid) !== -1) {
+                            socket.emit("id", s.userID);
+                            return sid == -1;
+                        }
+                        return true;
+                    });
                 });
             } else {
                 console.log("elevation failed")
