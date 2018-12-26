@@ -1,7 +1,7 @@
 {
-  "version": "3.3.1",
+  "version": "3.3.2",
   "changelog": "",
-  "source": "https://cdn.jsdelivr.net/gh/AJS-development/BlobleNoobScriptV3@54e7042d8032760c0b87fc9d87ee137a30b9da54/src/3.3.1.js",
+  "source": "https://cdn.jsdelivr.net/gh/AJS-development/BlobleNoobScriptV3@76d9d751c2e2b8f8c97be980f20340bef18b04fc/src/3.3.2.js",
   "loader": "1.0.1",
-  "msg": ""
+  "msg": "Highscores are now based on Points. Bots will reduce the rate you gain them."
 }
