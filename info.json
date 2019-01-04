@@ -1,7 +1,7 @@
 {
   "version": "3.3.3",
   "changelog": "Fixed many bugs. Improved Defend Mode. Quick power saving Base Building. Please note that this update is not automatic",
-  "source": "https://cdn.jsdelivr.net/gh/AJS-development/BlobleNoobScriptV3@06641b8872226159056dbfc47d93d552428c2f52/src/3.3.3.js",
+  "source": "https://cdn.jsdelivr.net/gh/AJS-development/BlobleNoobScriptV3@e0493382f771c6f7b696fb3aa4cae0251aba51f0/src/3.3.3.js",
   "loader": "1.0.2",
   "msg": ""
 }
