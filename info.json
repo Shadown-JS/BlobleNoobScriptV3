@@ -1,7 +1,7 @@
 {
-  "version": "3.3.4",
-  "changelog": "Base centers are now transparent, improved base defense",
-  "source": "https://cdn.jsdelivr.net/gh/AJS-development/BlobleNoobScriptV3@12d0978f39ced74ba93314d2b647fbdf38400fe5/src/3.3.4.js",
+  "version": "3.3.5",
+  "changelog": "Faster defense",
+  "source": "https://cdn.jsdelivr.net/gh/AJS-development/BlobleNoobScriptV3@07327943a120a532b54c47629d98ba1ecd59951d/src/3.3.5.js",
   "loader": "1.0.2",
-  "msg": "The contest has been delayed because I will be unavailable this week."
+  "msg": ""
 }
