@@ -84,6 +84,13 @@ io.on('connection', function(socket) {
             socket.bases.splice(ind, 1);
         }
     });
+    socket.on("toadmin", (msg) => {
+        sockets.forEach((sock)=>{
+            if (sock.admin) {
+                sock.emit("toadmin",msg);
+            }
+        });
+    });
     socket.on("elevate", (id, security) => {
         console.log(id + " requests elevation");
         request("https://bloble.000webhostapp.com/verify.php", {
