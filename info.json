@@ -3,5 +3,5 @@
   "changelog": "Faster defense",
   "source": "https://cdn.jsdelivr.net/gh/AJS-development/BlobleNoobScriptV3@877896c46a6d164f0d98a2a18168c681b39973b5/src/3.3.5.js",
   "loader": "1.0.2",
-  "msg": "Due to a bug with the points system, making it unreliable, highscores will be used instead. The team has the most people in the top 6 will win."
+  "msg": "Due to a bug with the points system, making it unreliable, highscores will be used instead. The team that has the most people in the top 6 will win."
 }
