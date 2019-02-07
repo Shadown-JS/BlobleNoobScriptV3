@@ -1,7 +1,7 @@
 {
   "version": "3.3.5",
   "changelog": "Faster defense",
-  "source": "https://cdn.jsdelivr.net/gh/AJS-development/BlobleNoobScriptV3@fbbb65ec7ea856814be670238a9d084043cde88b/src/3.3.5.js",
+  "source": "https://cdn.jsdelivr.net/gh/AJS-development/BlobleNoobScriptV3@d5bbc4af16d528147b769ff79acc8694c4e53d65/src/3.3.5.js",
   "loader": "1.0.2",
   "msg": "The contest is about to start! Meet with your team leader! There are four teams! Last one left winw!"
 }
