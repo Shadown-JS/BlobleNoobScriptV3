@@ -1,7 +1,7 @@
 {
-  "version": "3.3.6",
-  "changelog": "Faster defense",
-  "source": "https://cdn.jsdelivr.net/gh/AJS-development/BlobleNoobScriptV3@2fa9aa1bfa1fb28e91c0ceb27e03d35160429d3f/src/3.3.6.js",
+  "version": "3.3.7",
+  "changelog": "",
+  "source": "https://cdn.jsdelivr.net/gh/AJS-development/BlobleNoobScriptV3@7600be5380eda4144f06c27de93a3aca3a73ac12/src/3.3.7.js",
   "loader": "1.0.2",
   "msg": ""
 }
