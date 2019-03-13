@@ -1,7 +1,7 @@
 {
-  "version": "3.3.8",
-  "changelog": "",
-  "source": "https://cdn.jsdelivr.net/gh/AJS-development/BlobleNoobScriptV3@eccae8c938b9f48eca4fd5543100269f7e78869b/src/3.3.8.js",
+  "version": "3.4.0",
+  "changelog": "Better defend mode",
+  "source": "https://cdn.jsdelivr.net/gh/AJS-development/BlobleNoobScriptV3@d40e8d7e1071fd0539908a96d892b0e9efb0fb7d/src/3.4.0.js",
   "loader": "1.0.2",
   "msg": "If you lost bots, please stop using my hack. Thanks!"
 }
