@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Bloble.io NoobScript
-// @version      1.0
+// @version      3.0.0
 // @description  NoobScript V3 - The ultimate bloble.io mod
 // @author       NoobishHacker (Andrews54757)
 // @run-at       document-end
