@@ -30,7 +30,7 @@ Over the past few weeks, I have been learning how to write scripts for games. An
 
 ![example2](https://user-images.githubusercontent.com/13282284/37569511-cca00dee-2ab9-11e8-9188-159b0051dec2.png)
 
-#### Paste script from [scripts/game.js](https://github.com/AJS-development/BlobleNoobScriptV3/blob/master/scripts/game.js) - [Raw](https://raw.githubusercontent.com/AJS-development/BlobleNoobScriptV3/master/scripts/game.js)
+#### Paste script from [scripts/game.user.js](https://github.com/AJS-development/BlobleNoobScriptV3/blob/master/scripts/game.user.js) - [Raw](https://raw.githubusercontent.com/AJS-development/BlobleNoobScriptV3/master/scripts/game.user.js)
 
 ![screen shot 2018-03-18 at 2 21 07 pm](https://user-images.githubusercontent.com/13282284/37569533-1f750b96-2aba-11e8-9433-077605f086d2.png)
 
