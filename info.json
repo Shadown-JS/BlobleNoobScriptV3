@@ -2,6 +2,6 @@
   "version": "3.4.6",
   "changelog": "Better defend",
   "source": "https://cdn.jsdelivr.net/gh/AJS-development/BlobleNoobScriptV3@11567d744ae949f1e080d43aa245eccadb670ec1/src/3.4.6.js",
-  "loader": "1.0.2",
+  "loader": "1.0.3",
   "msg": "The script is now available for TamperMonkey!"
 }
