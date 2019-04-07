@@ -7,7 +7,7 @@ Over the past few weeks, I have been learning how to write scripts for games. An
 
 ## Installation
 
-#### Make sure you have [Tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo)
+#### Make sure you have [Tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo) on Google Chrome
 
 #### Afterwords, [click me to install script](https://raw.githubusercontent.com/AJS-development/BlobleNoobScriptV3/master/scripts/noobscript.user.js)
 
