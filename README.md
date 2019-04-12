@@ -12,3 +12,5 @@ Over the past few weeks, I have been learning how to write scripts for games. An
 #### Afterwords, [click me to install script](https://raw.githubusercontent.com/AJS-development/BlobleNoobScriptV3/master/scripts/noobscript.user.js)
 
 #### Play bloble.io
+
+##### PS: Please disable all other scripts for bloble.io - They will not work with noobscript.
